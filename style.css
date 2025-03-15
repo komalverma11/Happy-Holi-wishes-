@@ -1,0 +1,113 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+    background-color: #f0f0f0;
+}
+
+.holi-container {
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 3px solid hotpink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#holi-wishes {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#holi-info-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#holi-info-button:hover {
+    background-color: #3e8e41;
+}
+
+#holi-quiz-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#holi-quiz-button:hover {
+    background-color: #3e8e41;
+}
+
+#holi-info-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#holi-quiz-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+p { 
+  color: green;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+h1 {
+  color: red;
+  font-size: 30px;
+  font-family: Dancing Script;
+  margin: 10px;
+  padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+    border: 1px solid yellow;
+    padding: 8px;
+    color: green;
+    font-weight: bold;
+    background: yellow;
+    border-radius: 10px;
+  }
+  
+#submit-quiz-button {
+  background: greenyellow;
+  color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 6px;
+  margin: 10px;
+}
